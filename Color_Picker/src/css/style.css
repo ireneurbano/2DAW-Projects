@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-items: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.colors {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    width: 50vw; 
+    height: 100vh; 
+    padding: 10px;
+}
+
+.column1 {
+    background-color: #F44336;
+}
+
+.column2 {
+    background-color: #2196F3;
+}
+
+.column3 {
+    background-color: #009688; 
+}
+
+.column4 {
+    background-color: #FFC107; 
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: white; 
+    border: solid black 2px;
+    margin-top: 20px;
+    
+}
